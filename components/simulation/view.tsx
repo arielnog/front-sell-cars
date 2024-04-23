@@ -25,6 +25,7 @@ const ResultSimulation = (announcementContent: Params) => {
                 year={announcementContent.params.vehicle.year}
                 mileage={announcementContent.params.vehicle.mileage}
                 transmission={announcementContent.params.vehicle.transmission}
+                imagePath={announcementContent.params.image_path}
             />
 
 
