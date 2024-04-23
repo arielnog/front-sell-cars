@@ -7,6 +7,7 @@ import { MdLocationOn } from "react-icons/md";
 interface Content {
     title: string;
     description: string;
+    imagePath: string;
     price:number
     city: string,
     year: number;
@@ -33,7 +34,7 @@ const CardCar = (params: Content) => {
                     </div>
                 </div>
 
-                <Image src={"/assets/image.png"}
+                <Image src={params.imagePath}
                     width={0}
                     height={0}
                     alt="foto do carro"

@@ -9,6 +9,7 @@ export default interface Announcement{
     uuid: string;
     title: string;
     description: string;
+    image_path: string;
     status: string;
     city: string;
     price: number;

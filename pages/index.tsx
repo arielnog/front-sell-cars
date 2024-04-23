@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
-import Header from "@/components/Layout/header";
-import Footer from "@/components/Layout/footer";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
 import FormSimulation from "@/components/simulation/form";
 
 const inter = Inter({ subsets: ["latin"] });
