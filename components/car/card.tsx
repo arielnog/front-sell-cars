@@ -33,7 +33,7 @@ const CardCar = (params: Content) => {
                     </div>
                 </div>
 
-                <Image src={"/assets/file.jpeg"}
+                <Image src={"/assets/image.png"}
                     width={0}
                     height={0}
                     alt="foto do carro"

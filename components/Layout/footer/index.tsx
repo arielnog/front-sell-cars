@@ -1,9 +1,9 @@
-import { FaWhatsapp, FaFacebookF } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 const Footer = () => {
   return (
-    <footer className="bottom-0 left-0 w-full bg-[#343A40CC] items-end py-[44.53px] px-4 sm:px-0">
+    <footer className="w-full bg-[#343A40CC] mt-auto py-[44.53px] px-4 sm:px-0">
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-1 gap-6 px-4 sm:grid-cols-6">
           <div className="hidden sm:block">
